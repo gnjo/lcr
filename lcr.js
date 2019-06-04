@@ -1,3 +1,6 @@
+/*history
+ v1.0 bugfix 
+*/
 ;(function(root){
  let fn={}
  fn.i3=(d)=>{
@@ -69,7 +72,7 @@
   o.c=fn.q('.wrap',o.c)
   o.l=fn.q('.wrap',o.l)
   o.r=fn.q('.wrap',o.r)
-  document.body.addEventListener('resize',sizer)
+  window.addEventListener('resize',sizer)
   sizer()
   ;
   o.sethtml=(html,target)=>{
