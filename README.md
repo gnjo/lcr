@@ -15,3 +15,7 @@ body
 let app=lcr('auto','50rem','auto')
 app.sethtml('<div class="lay">xyz</div>','c')
 ```
+# useful class
+``
+.lay
+```
