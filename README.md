@@ -1,5 +1,14 @@
 # lcr
 left|center|right frame
+# contrast
+```
+Dont 16.0> too bright
+AAA 16.0 very good
+AA 7.0 good
+A  4.5 low limit
+B  2.0 wipe color
+Dont <2.0 too dark
+```
 # dev
 https://codepen.io/gnjo/pen/arXVoG
 # demo
