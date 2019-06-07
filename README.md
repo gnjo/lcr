@@ -33,4 +33,5 @@ app.r //element
 # useful class
 ```
 .lay
+.hidescroll or .hidescrollbar
 ```
