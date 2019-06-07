@@ -46,6 +46,11 @@ body {
   border: 2px solid black;
 }
 
+.hidescrollbar::-webkit-scrollbar
+,.hidescroll::-webkit-scrollbar {
+  width: 0px;
+}
+
 ::-webkit-scrollbar {
   background-color: black;
   width: 12px;
@@ -56,6 +61,11 @@ body {
   height: 0px;
   width: 0px;
   border-radius: 0px;
+}
+
+::selection {
+  background-color: #4cb;
+  color: white;
 }
 
 .lay, .layer {
